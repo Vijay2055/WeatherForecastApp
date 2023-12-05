@@ -1,0 +1,273 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #E0E8F1
+
+
+}
+nav{
+   
+    height: 47px;
+   background-color: rgba(0, 0, 0, 0.49);
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   color: white;
+   
+}
+.container{
+    display: flex;
+   
+}
+div.image1{
+    margin-right: 10px;
+    background-image: url('navIcon.svg');
+    width: 27px;
+    height: 29px;
+}
+div.image2{
+    margin-right: 10px;
+    background-image: url('refreshIcon.svg');
+    width: 24px;
+    height: 24px;
+}
+
+.navWeather{
+    font-size: 25px;
+    font-family: Roboto;
+    font-weight: 700px;
+}
+
+.refresh{
+    font-size: 16px;
+    font-weight: 700px;
+    font-family: Quicksand;
+
+}
+
+div.content{
+    display: flex;
+}
+
+div.left{
+    flex: 10%;
+}
+
+div.right{
+    flex: 10%;
+}
+
+div.hero{
+    flex: 80%;
+}
+
+.box-1{
+    height: 65px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.location{
+    display: flex;
+    
+}
+
+.imageLocation{
+    height: 25px;
+    width: 25px;
+    margin-right: 5px;
+
+}
+
+.address{
+    font-family: Roboto;
+    height: 28px;
+    font-size: 23px;
+    font-weight: 700;
+}
+
+.search{
+    height: 46px;
+    width: 327px;
+    background-color: white;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+   
+    
+}
+
+.search input{
+    margin-left: 20px;
+    width: 140px;
+    border-style: none;
+    font-family: Roboto;
+    font-style: italic;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.searchImage{
+    height: 21px;
+    width: 21px;
+    margin-right: 20px;
+}
+
+.heroTemp{
+    flex: 100%;
+    
+}
+hr{
+    height: 1px;
+    background: rgba(0, 0, 0, 0.2);
+    padding: 0;
+}
+
+.box-2{
+    height: 305px;
+    width: 1066px;
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+
+.list{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    list-style: none;
+    margin-top: 10px;
+    width: 136px;
+    height: 184px;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 400;
+    color:rgba(0, 0, 0, 1);
+    
+}
+
+.select{
+    margin-top: 40px;
+    width: 69px;
+    height: 15;
+    font-size: 12px;
+    font-family: Roboto;
+    font-weight: 400;
+    color:rgba(68, 68, 68, 1); 
+}
+
+.date{
+    height: 38px;
+    width: 127px;
+    background-color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border: 1px solid rgba(70, 70, 70, 1);
+    border-radius: 3px;
+}
+
+.date img{
+    height: 23px;
+    width: 23px;
+    margin-left: 10px;
+    
+}
+
+.dateText{
+    height: 17px;
+    width: 80px;
+    font-size: 13px;
+    font-weight: 700;
+    color: rgba(68, 68, 68, 1);
+    margin-left: 5px;
+    
+}
+
+.inner-box{
+    height: 305px;
+    width: 152px;
+    text-align: center;
+    
+   
+    
+}
+
+.upperText{
+    width: 114.52px;
+    height: 23.81px;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(68, 68, 68, 1);
+    margin: auto;
+
+}
+
+.rectangle{
+    padding-top: 10px;
+    height: 275px;
+    width: 152px;
+    background: linear-gradient(180deg, #464646 0%, #1D2540 100%);
+    box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.15);
+    border-radius: 7px;
+    
+
+}
+
+.rec-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rec-image img{
+    height: 56px;
+    width: 56px;   
+}
+
+.rec-text{
+    width: 61px;
+    height: 24px;
+    font-family: Roboto;
+    font-size: 19px;
+    font-weight: 700;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+
+}
+
+.border{
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    margin-top: 10px;
+    
+}
+
+.list-two{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 184px;
+    list-style: none;
+    justify-content: space-evenly;
+    color: rgba(255, 255, 255, 1);
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 15px;
+    
+}
+
+
+
+
+
+
+
+
