@@ -30,7 +30,7 @@ search_button.addEventListener('click',()=>{
     let state;
     let cnt=5
 
-   fetch(`http://api.openweathermap.org/geo/1.0/direct?q=${place}&appid=${api_key}`)
+   fetch(`https://api.openweathermap.org/geo/1.0/direct?q=${place}&appid=${api_key}`)
    .then((response)=>{
      return response.json()
    }).then((data)=>{
@@ -41,7 +41,7 @@ search_button.addEventListener('click',()=>{
     address.innerHTML=`${place[0].toUpperCase() + place.slice(1)},${state}`
     
 
-        fetch(`http://api.openweathermap.org/data/2.5/forecast/daily?lat=${lat}&lon=${log}&cnt=${cnt}&appid=${api_key}
+        fetch(`https://api.openweathermap.org/data/2.5/forecast/daily?lat=${lat}&lon=${log}&cnt=${cnt}&appid=${api_key}
         `).then((response)=>{   
             return response.json()
         }).then((data)=>{
